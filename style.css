@@ -1,0 +1,153 @@
+body
+{
+    background-image: url(https://img.freepik.com/premium-photo/black-hexagon-honeycomb-shape_10307-1405.jpg?semt=ais_hybrid);
+    color: aliceblue;
+}
+.self
+{
+    height: 30vh;
+    width: 50%;
+    padding: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:10px;
+    margin-top: 50px;
+    transition: 2s;
+    margin-left: 70px;
+    font-size: large;
+    
+}
+.box
+{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px  rgba(97, 82, 126, 0.687);
+    margin: 65px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    transition: 2s;
+}
+.box:hover
+{
+    scale: 102%;
+    backdrop-filter: blur(8px);
+    transition: 2s;
+    box-shadow: 0px 0px 15px  rgba(97, 82, 126, 0.687);
+}
+.box
+{
+    display: flex;
+
+}
+.photo
+{
+    margin-left :150px;
+    height: 30vh;
+    margin-top: 40px ;
+}
+.pic
+{
+    border-radius: 200px;
+}
+.about
+{
+    height: 20vh;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+}
+.details
+{
+    height: 38vh;
+    width:40%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 0px 10px  rgba(97, 82, 126, 0.687);
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-left: 50px;
+    border-radius:10px ;
+    transition: 2s;
+    font-size: large;
+}
+.address
+{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(97, 82, 126, 0.687);
+    margin-top: 20px;
+    height: 40vh;
+    padding-left:30px;
+    padding-right: 20px;
+    width:30%;
+    margin-left: 180px;
+    border-radius: 10px;
+    transition: 2s; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.box2
+{
+    display: flex;
+    margin-bottom:65px;
+
+}
+.box3
+{
+    display: flex;
+    margin-bottom:65px;
+}
+.skills
+{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(97, 82, 126, 0.687);
+    margin-top: 20px;
+    height: 35vh;
+    padding-left:50px;
+    width:40%;
+    margin-left: 70px;
+    border-radius: 10px;
+    transition: 2s; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size: large;
+}
+.tech
+{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(97, 82, 126, 0.687);
+    margin-top: 20px;
+    height: 35vh;
+    padding-left:50px;
+    width:30%;
+    margin-left: 180px;
+    border-radius: 10px;
+    transition: 2s; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.contact
+{
+    height: 14vh;
+    width:89%;
+    background-color: transparent;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px rgba(97, 82, 126, 0.687);
+    backdrop-filter: blur(10px);
+    padding-bottom: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    padding-left: 20px;
+    margin-left: 70px;
+    border-radius:10px; 
+}
